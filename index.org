@@ -1,6 +1,6 @@
 #+title: DoomConf November 2024
 
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./css/style.css" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/css/style.css" />
 #+options: html-link-use-abs-url:nil html-postamble:nil html-preamble:t
 #+options: html-scripts:nil html-style:t html5-fancy:nil tex:t num:nil toc:nil
 #+html_doctype: xhtml-strict

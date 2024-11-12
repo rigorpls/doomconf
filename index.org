@@ -1,0 +1,79 @@
+#+title: DoomConf November 2024
+
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./css/style.css" />
+#+options: html-link-use-abs-url:nil html-postamble:nil html-preamble:t
+#+options: html-scripts:nil html-style:t html5-fancy:nil tex:t num:nil toc:nil
+#+html_doctype: xhtml-strict
+#+html_container: div
+#+html_content_class: content
+#+infojs_opt: view:showall toc:nil ltoc:nil
+
+[[https://raw.githubusercontent.com/hlissner/doom-emacs/screenshots/cacochan.png]]
+
+* When is it?
+#+ATTR_HTML: :id time
+[[./doom-conf.ics]]
+
+All times are in your local timezone, if that does not work then It will begin on the 2nd of November at 9pm UTC for 3 hours.
+
+* Where is it?
+[[https://app.gather.town/app/3LJUcsO5al4F9f7S/doom-conf-2022][Here!]]
+
+The password will be shared a few hours before the event in the [[https://discord.gg/qvGgnVx][DOOM Discord]] =doomconf 2024H2= event thread.
+
+* Talks
+People are welcome to present but please be mindful not to interrupt the current speaker.
+
+[[https://doomconf.netlify.app/][link to recording (tbd)]]
+
+** Mentioned Topics & Priority
+
+This is a rough agenda, expect more time for setup, questions and possibly breaks.
+
+| What                                                                  | Who         | Length (min) |
+|-----------------------------------------------------------------------+-------------+--------------|
+| Numbers: a mathematical fanfic                                        | @flugo      |           45 |
+| Cell, interrupted: Aperiodic monotile game of life                    | @hylo       |           20 |
+| Transducers: age of composition                                       | @fosskers   |           20 |
+| Split Keyboards: A New Frontier of Shaveable Yaks                     | @pekudzu    |           20 |
+| The _other_ Love Boat: an embark adventure                            | @karthink   |           15 |
+| How to figure something out                                           | @MonadGauge |           20 |
+| This is Brilliant / But I like this: Trends in modern language design | @rushsteve1 |           30 |
+|-----------------------------------------------------------------------+-------------+--------------|
+| Total                                                                 |             |          170 |
+#+TBLFM: @9$3=vsum(@2$3..@8$3)
+
+** Backlog
+
+| What                                           | Who         | Length (min) |
+|------------------------------------------------+-------------+--------------|
+| Structural nav/editing part II: the quickening | @rigor      |           30 |
+| Configuring a ttylating emacs experience       | @ambirdsall |           25 |
+|------------------------------------------------+-------------+--------------|
+| Total                                          |             |           55 |
+#+TBLFM: @4$3=vsum(@2$3..@3$3)
+
+* Previous Confs
+
+- [[./aug-2022/][August 2022]]
+- [[./may-2022/][May 2022]]
+- [[./feb-2022/][Febuary 2022]]
+- [[./dec-2021/][December 2021]]
+- [[./nov-2021/][November 2021]]
+- [[./aug-2021/][August 2021]]
+
+
+#+begin_center
+See the processes used to manage doom conf [[./protocols][here]]
+
+PR on [[https://github.com/rushsteve1/doomconf][GitHub]]
+
+This site made using [[https://github.com/doomemacs/doomemacs][DOOM Emacs]]
+#+end_center
+
+#+BEGIN_EXPORT html
+<script type="text/javascript" src="/date.js"></script>
+<script type="text/javascript">
+    dateString("2024-11-02T21:00:00", "2024-11-03T00:00:00")
+</script>
+#+END_EXPORT

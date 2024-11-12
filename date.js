@@ -18,8 +18,8 @@ function dateString(startTimestamp, endTimestamp) {
     }
   );
 
-  let timeElem = document.querySelector("#time")
-  timeElem.innerHTML = `[[${start} to ${end}]]`
+  let timeElem = document.querySelector("a#time")
+  timeElem.innerHTML = `${start} to ${end}`
 }
 
 function renderTime() {
